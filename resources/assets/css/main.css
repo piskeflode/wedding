@@ -1,0 +1,123 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  box-sizing: border-box; }
+
+.main-inside {
+  position: relative;
+  width: 50%;
+  height: 60px;
+  margin-top: 37%;
+  margin-left: 26%; }
+
+.main-btn {
+  background-color: transparent;
+  color: white;
+  display: inline-block;
+  text-align: center;
+  text-decoration: none;
+  border: 2px white solid;
+  font-size: 20px;
+  padding: 19px 69px;
+  outline: none;
+  margin-left: 60px; }
+  .main-btn:hover {
+    background-color: white;
+    color: black; }
+
+img.bg {
+  /* Set rules to fill background */
+  min-height: 100%;
+  min-width: 1024px;
+  /* Set up proportionate scaling */
+  width: 100%;
+  height: auto;
+  /* Set up positioning */
+  position: fixed;
+  top: 0;
+  left: 0; }
+
+@media screen and (max-width: 1280px) {
+  /* Specific to this particular image */
+  img.bg {
+    left: 50%;
+    margin-left: -512px;
+    /* 50% */ } }
+.header {
+  background: url(img/top.jpg) no-repeat;
+  background-position: top center;
+  background-size: cover;
+  width: 100%;
+  min-height: 935px; }
+
+.navigation {
+  text-align: center;
+  margin: 0 auto; }
+  .navigation ul {
+    font-family: Garamond, serif;
+    font-size: 21px;
+    color: #c79d4f;
+    list-style-type: none;
+    padding: 63px 0 0 0;
+    margin: 0; }
+    .navigation ul li {
+      display: inline;
+      list-style-type: none;
+      padding: 10px; }
+      .navigation ul li a {
+        text-decoration: none;
+        text-align: center; }
+        .navigation ul li a:visited {
+          color: #c79d4f; }
+        .navigation ul li a:hover {
+          color: #ffffff; }
+
+.container2 {
+  background: url(img/invintation-background.png) no-repeat;
+  background-position: top center;
+  background-size: cover;
+  width: 100%;
+  height: 690px; }
+
+.warning-page {
+  background: url(images/main.png) no-repeat;
+  background-position: top center;
+  background-size: 100% 100%;
+  height: 100%;
+  text-align: center;
+  padding: 30px 30px 0 30px; }
+  .warning-page h1 {
+    color: #ffffff;
+    font-family: Garamond;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 58px; }
+
+#clockdiv {
+  font-family: sans-serif;
+  color: #fff;
+  display: inline-block;
+  font-weight: 100;
+  text-align: center;
+  font-size: 21px;
+  margin-top: 84px;
+  margin-left: 23px; }
+
+#clockdiv div {
+  padding: 10px;
+  border-radius: 30px;
+  background: #c79d4f;
+  display: inline-block; }
+
+#clockdiv div span {
+  padding: 11px;
+  border-radius: 30px;
+  background: #c9ab72;
+  display: inline-block; }
+
+.smalltext {
+  padding-top: 5px;
+  font-size: 16px; }
+
+/*# sourceMappingURL=main.css.map */

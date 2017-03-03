@@ -1,0 +1,712 @@
+
+html,body{
+  margin: 0;
+  padding: 0;
+ height: 100%;
+  box-sizing: border-box;
+}
+
+.main-inside{
+  position:relative;
+  width:50%;
+  height:60px;
+  margin-top: 37%;
+  margin-left: 26%;
+
+}
+.main-btn {
+  background-color: transparent;
+  color: white;
+  display: inline-block;
+  text-align: center;
+  text-decoration: none;
+  border: 2px white solid;
+  font-size: 20px;
+  padding: 19px 69px;
+  outline: none;
+  margin-left: 60px;
+
+  &:hover{
+    background-color: white;
+    color: black;
+  }
+}
+
+img.bg {
+    /* Set rules to fill background */
+    min-height: 100%;
+    min-width: 1024px;
+
+    /* Set up proportionate scaling */
+    width: 100%;
+    height: auto;
+
+    /* Set up positioning */
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+@media screen and (max-width: 1280px) { /* Specific to this particular image */
+    img.bg {
+      left: 50%;
+      margin-left: -512px; /* 50% */
+    }
+}
+
+.header{
+  background: url(../../img/top.jpg) no-repeat;
+  background-position: top center;
+  background-size: cover;
+
+  width:100%;
+  min-height:935px;
+
+  .names{
+
+    width:332px;
+    height: 102px;
+   // background: url(../../img/backgroundFor.png) no-repeat;
+    background: transparent;
+    text-align: center;
+    margin-left: 158px;
+    margin-top: 84px;
+    padding: 10px 0 10px 0;
+    border-radius: 3px;
+
+    span{
+      font-family: Garamond;
+      margin: 0;
+      color: $primary-color;
+      font-size: 37px;
+      letter-spacing: 5px;
+    }
+
+    .getting {
+      font-family: Garamond;
+      margin: 0;
+      color: $primary-color;
+      font-size: 20px;
+    }
+  }
+}
+
+
+ .navigation {
+   text-align: center;
+   margin: 0 auto;
+
+   ul {
+     font-family: Garamond, serif;
+     font-size: 21px;
+     color: #c79d4f;
+     list-style-type: none;
+     padding: 63px 0 0 0;
+     margin: 0;
+
+
+     li{
+       display:inline;
+       list-style-type: none;
+       padding:10px;
+       margin:0 0 10px 0;
+       padding-right: 46px;
+
+       a{
+         text-decoration: none;
+         text-align: center;
+
+
+         &:visited {
+           color: $primary-color;
+         }
+
+         &:active {
+           color: $primary-color;
+         }
+         &:hover {
+           color: #ffffff;
+         }
+       }
+     }
+   }
+ }
+
+ .container2 {
+   height:auto;
+
+   background: url(../../img/font.png) no-repeat;
+   background-position: top center;
+   background-size: cover;
+   padding-bottom: 18px;
+   @include clearfix;
+
+   .content {
+     width:80%;
+     margin:0 auto;
+     padding: 20px 40px;
+     font-family: 'Dancing Script', cursive;
+
+      .row{
+        float: left;
+      }
+     .row.margined {
+       margin-top: -4px;
+     }
+     .image{
+       width:50%;
+       height: auto;
+       float: left;
+       img{
+         max-width:100%;
+         max-height:100%;
+       }
+     }
+     .text {
+       p{
+         padding: 30px 20px;
+         font-size: 21px;
+         line-height: 35px;
+       }
+
+       .text2{
+         margin-top: 100px;
+       }
+
+       width: 50%;
+       float: left;
+       text-align: center;
+
+       color: #c59b4e;
+     }
+
+   }
+ }
+ .container3{
+
+   background: url(../../img/invintation-background.png) no-repeat;
+   background-position: top center;
+   background-size: cover;
+   width:100%;
+   height:690px;
+
+ }
+
+ .container2-coming{
+
+   background: url(../../img/coming-font.png) no-repeat;
+   background-position: top center;
+   background-size: cover;
+   width:100%;
+   height:690px;
+
+ }
+
+ .warning-page {
+
+   background: url(../../images/main.png) no-repeat;
+   background-position: top center;
+   background-size: 100% 100%;
+
+   height: 100%;
+   text-align: center;
+   padding: 30px 30px 0 30px;
+
+
+   h1 {
+     color: #ffffff;
+     font-family: Garamond;
+     font-size: 20px;
+     font-weight: 300;
+     line-height: 58px;
+   }
+
+
+ }
+
+#clockdiv{
+  font-family: 'Dancing Script', cursive;
+  color: #fff;
+  display: inline-block;
+  font-weight: 100;
+  text-align: center;
+  font-size: 21px;
+  margin-top: 84px;
+}
+
+/*#clockdiv {
+  div{
+    padding: 10px;
+    border-radius: 30px;
+    background: #c9ab72;
+    display: inline-block;
+  }
+}
+
+#clockdiv{
+  div{
+    span{
+      padding: 30px;
+      border-radius: 30px;
+      background: #c9ab72;
+      display: inline-block;
+    }
+  }
+}*/
+
+/*.smalltext{
+  padding-top: 5px;
+  font-size: 16px;
+}*/
+
+#clockdiv{
+  display: inline-block;
+  color: black;
+
+  div{
+    width: 100px;
+    float: left;
+    color: $primary-color;
+  }
+}
+
+.textbox{
+  width:50%;
+  margin: 0 auto;
+  padding-top: 93px;
+  text-align: center;
+  font-family: MighType;
+  color: #c59b4e;
+
+
+  span.heading{
+    font-size: 109px;
+  }
+  span.content{
+    font-size: 44px;
+    line-height: 51px;
+    margin-top: 20px;
+  }
+
+  .buttons {
+
+    padding-top: 60px;
+    @include clearfix;
+
+    button {
+      width:40%;
+      background-color: transparent;
+      color: white;
+      display: inline-block;
+      text-align: center;
+      text-decoration: none;
+      border: 2px white solid;
+      font-size: 20px;
+      padding: 19px 69px;
+      outline: none;
+      float: left;
+
+      &#rightbutton{
+
+        float:right;
+      }
+
+      &:hover{
+        background-color: white;
+        color: black;
+      }
+
+
+    }
+  }
+
+}
+
+ .countdown {
+ // background: url(../../img/backgroundFor.png) no-repeat;
+   background: transparent;
+
+   background-position: top center;
+  background-size: cover;
+   width:150px;
+  height:93px;
+  text-align: center;
+  color: $primary-color;
+  font-family: Garamond;
+   margin:291px 0  0 375px;
+   border-radius: 3px;
+   padding-top: 1px;
+
+   #clockdiv{
+     margin: 0;
+     padding: 0;
+     color: $primary-color;
+     font-family: Garamond;
+     font-size: 27px;
+   }
+
+   .clocks {
+     margin-top: -7px;
+   }
+
+   p{
+     font-size: 37px;
+   }
+
+  .wrapper {
+    width: 100%;
+    margin: 0;
+  }
+
+}
+
+ .city{
+   margin:0 auto;
+   text-align: center;
+   background: url("../../img/font.png");
+   padding: 60px;
+
+   ul{
+
+     padding: 0;
+
+     li{
+       display: inline;
+       list-style-type: none;
+       padding:40px;
+       margin:0 0 0 0;
+        h1{
+          display: inline;
+        }
+     }
+   }
+   h1{
+     margin:0;
+     font-family: GreatVibes;
+     color: $primary-color;
+     letter-spacing: 5px;
+   }
+
+   .video{
+     margin:0 auto;
+     margin-top: 54px;
+
+     iframe{
+       margin:0 auto;
+     }
+   }
+ }
+
+ .dayplan{
+
+   width:100%;
+  // background: url("../../images/section-background.png");
+   background: url("../../img/font.png");
+   padding: 15px 0;
+   margin:0 auto;
+   @include clearfix();
+
+   .dayplanheader{
+
+     text-align: center;
+     width:80%;
+     margin:0 auto;
+     height: 103px;
+
+     .col3{
+       display: inline-block;
+       padding:0 66px ;
+       height: 100%;
+       vertical-align: top;
+
+       h1{
+         margin:0;
+         font-family: GreatVibes;
+         color: $primary-color;
+         letter-spacing: 5px;
+       }
+
+       p.planheading{
+         margin:0;
+         font-family: GreatVibes;
+         color: $primary-color;
+         letter-spacing: 5px;
+         font-size: 33px;
+
+
+       }
+       p{
+         font-size: 13px;
+         font-family: Garamond;
+         color: $primary-color;
+       }
+     }
+
+   }
+  .detailswrapper{
+    width: 80%;
+    margin: 12px auto;
+    @include clearfix();
+
+    .details{
+      width:37%;
+      float: left;
+      text-align: center;
+      background-color: white;
+      vertical-align: top;
+      padding: 50px;
+     height:410px;
+      margin: auto;
+
+      img{
+        margin: 10px;
+        max-width: 100%;
+      }
+
+      p{
+        font-family: Garamond;
+        font-size: 15px;
+        color: $primary-color;
+        margin: 0;
+      }
+      /*.line{
+        width:5%;
+        display: inline-block;
+      }*/
+    }
+
+    .details2{
+      width:37%;
+      float: right;
+      text-align: center;
+      background-color: white;
+      vertical-align: top;
+      padding: 50px;
+      height:410px;
+      margin: auto;
+
+      img{
+        margin: 10px;
+        max-width: 100%;
+      }
+
+      p{
+        font-family: Garamond;
+        font-size: 15px;
+        color: $primary-color;
+        margin: 0;
+      }
+    }
+  }
+
+ }
+
+ .reach{
+   width: 100%;
+   background: url("../../images/font2.jpg");
+   background-position: top center;
+   background-size: cover;
+
+
+
+   .reachwrapper{
+     width: 80%;
+     text-align: center;
+     margin: 0 auto;
+     padding: 30px;
+     @include clearfix();
+
+     .info{
+       color:$primary-color;
+       float: right;
+       width:40%;
+       padding: 15px;
+       text-align: center;
+       vertical-align: middle;
+       font-family: Garamond;
+
+       p{
+         margin-top: 60px;
+       }
+     }
+   }
+
+   h1 {
+     margin: 0;
+     margin-bottom: 20px;
+     font-family: GreatVibes;
+     color: $primary-color;
+     letter-spacing: 5px;
+     font-size: 32px;
+   }
+
+
+ }
+#map{
+  width: 40%;
+  height: 400px;
+  border-radius: 5px;
+}
+
+.stay {
+  margin: 0 auto;
+  padding: 20px;
+  color: $primary-color;
+  background: url("../../img/font.png");
+
+  .staywrapper{
+
+    margin:0 auto;
+    width: 80%;
+    text-align: center;
+    @include clearfix();
+    padding: 0 15px 0 15px;
+
+    ul{
+      margin:0 auto;
+
+      li{
+        display: inline;
+        list-style-type: none;
+        padding: 5px;
+        margin: 0 40px 0 10px;
+
+        h1 {
+          display: inline;
+          font-family: GreatVibes;
+          letter-spacing: 8px;
+          margin: 0;
+          color: $primary-color;
+        }
+      }
+    }
+
+    p{
+        font-family: Garamond;
+      line-height: 35px;
+      margin-bottom: 20px;
+    }
+
+    .accomondation {
+      vertical-align: top;
+      display: inline-block;
+      width:17%;
+      background-color: white;
+      padding: 20px;
+      margin-right: 21px;
+      font-family: Garamond;
+      font-size: 11px;
+      height: 269px;
+
+      a {
+        color: $primary-color;
+
+        &:visited {
+          color: $primary-color;
+        }
+        &:hover {
+          color: $primary-color;
+        }
+
+      }
+
+      p{
+        line-height: normal;
+        margin: 0;
+      }
+
+      img{
+        max-width: 100%;
+        margin-top: 15px;
+        margin-bottom: 15px;
+      }
+    }
+
+  }
+
+}
+
+.seeya{
+  text-align: center;
+  background: url("../../images/font2.jpg");
+  background-position: top center;
+  background-size: cover;
+
+  h1{
+    margin: 0;
+    padding: 40px 0 40px 0;
+    font-family: Garamond;
+    color: $primary-color;
+    letter-spacing: 5px;
+    font-size: 32px;
+  }
+}
+
+.finish{
+  width: 100%;
+  padding: 30px 0 30px 0;
+  background: url("../../img/font.png");
+
+  .finishwrapper{
+    width: 80%;
+    margin: 0 auto;
+    vertical-align: top;
+
+    .col4 {
+      display: inline-block;
+      vertical-align: top;
+      margin-right: 16px;
+      text-align: center;
+
+      img{
+        max-width: 100%;
+      }
+
+      p{
+        margin-top: 80px;
+        font-family: Garamond;
+        color: $primary-color;
+        font-size: 15px;
+      }
+    }
+
+    #first {
+      vertical-align: bottom;
+      width: 10%;
+    }
+    #second {
+      width:10%;
+    }
+    #third{
+      width: 40%;
+    }
+    #fourth{
+      width:20%;
+    }
+  }
+
+}
+
+.form{
+  width: 100%;
+  background: url("../../img/font.png");
+
+  .formwrapper{
+    text-align: center;
+    color: $primary-color;
+    font-family: Garamond;
+    font-size: 35px;
+    width: 80%;
+    margin: 0 auto;
+
+    .forminside{
+      text-align: center;
+
+      input[type="checkbox"] {
+      margin: 0;
+        display: inline;
+    }
+    }
+  }
+}
+

@@ -1,0 +1,17 @@
+@font-face {
+    font-family: Garamond;
+    src: url(../fonts/EBGaramond-Regular.ttf);
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: MighType;
+    src: url(../fonts/Mightype.ttf);
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: GreatVibes;
+    src: url(../fonts/GreatVibes-Regular.ttf);
+    font-weight: normal;
+}
