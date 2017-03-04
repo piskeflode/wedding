@@ -546,14 +546,19 @@ img.bg {
 
 .form {
   width: 100%;
-  background: url("../../img/font.png"); }
+  background: url("../../img/font.png");
+  min-height: 100%; }
+  .form h1 {
+    margin: 0;
+    padding-top: 100px; }
   .form .formwrapper {
     text-align: center;
     color: #c59b4e;
     font-family: Garamond;
     font-size: 35px;
     width: 80%;
-    margin: 0 auto; }
+    margin: 0 auto;
+    height: 100%; }
     .form .formwrapper .forminside {
       text-align: center; }
       .form .formwrapper .forminside input[type="checkbox"] {
