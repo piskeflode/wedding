@@ -42,7 +42,7 @@
 
          <div class="row margined">
             <div class="text "><p>Every morning, one young man has been taking the same path but in oppositive direction. It took him a little time to study her gestures and features to realize that he cannot let the
-                  sadness to take over her. This is when he took an action, results of which you see seven and a half years latter</p></div>
+                  sadness to take over her. This is when he took an action, results of which you see seven and a half years later</p></div>
             <div class="image"><img src="../images/young-foto2.png" alt=""></div>
          </div>
       </div>
@@ -74,8 +74,9 @@
             <span class="content">
             We are happy to see you at our weddings! <br>
                Bring with you awesome dance moves :) <br>
+             Dress code is casual.
 
-               <p><span class="content">Please,fill in the short survey</span></p>
+               <p><span class="content">Please,fill out the short survey</span></p>
                <a href="{{route('questen')}}">Survey</a>
                <p>Thank you </p>
             </span>
@@ -86,9 +87,9 @@
       <div class="container2-coming" id="myModal">
          <div class="textbox">
             <span class="content">
-            We are sorry to hear that you can not join us <br>
-               But you are welcome anyway if you change <br>
-               your mind just let us know
+            We are sorry to hear that you can not join us. <br>
+               But you are welcome anyway, if you change <br>
+               your mind just let us know.
 
             </span>
          </div>
@@ -105,9 +106,9 @@
             Click on <a href="{{route('detailsEnglish')}}">details</a>  for more information <br> <br>
 
             Let’s us know as soon as possible <br>
-            if you can join our wedding <br>
+            if you can join our wedding <br> <br> <br>
 
-            Your Nikita & Katia</p></div>
+            Yours Nikita & Katia</p></div>
          <div  id="second"   class="col4 scroll"><img src="../../images/scrollright.png" alt=""></div>
       </div>
    </div>

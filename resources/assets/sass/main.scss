@@ -12,6 +12,8 @@ html,body{
   height:60px;
   margin-top: 37%;
   margin-left: 26%;
+  height: 100%;
+  overflow-y: hidden;
 
 }
 .main-btn {
@@ -148,7 +150,7 @@ img.bg {
      width:80%;
      margin:0 auto;
      padding: 20px 40px;
-     font-family: 'Dancing Script', cursive;
+     font-family: Garamond;
 
       .row{
         float: left;
@@ -530,6 +532,27 @@ img.bg {
 
        p{
          margin-top: 60px;
+         line-height: 30px;
+
+         a{
+           text-decoration: none;
+           text-align: center;
+
+           &:link {
+             color: $primary-color;
+           }
+
+           &:visited {
+             color: $primary-color;
+           }
+
+           &:active {
+             color: $primary-color;
+           }
+           &:hover {
+             color: #948363;
+           }
+         }
        }
      }
    }
@@ -663,7 +686,7 @@ img.bg {
       text-align: center;
 
       img{
-        max-width: 100%;
+        max-width: 90%;
       }
 
       p{
@@ -682,10 +705,10 @@ img.bg {
       width:10%;
     }
     #third{
-      width: 40%;
+      width: 50%;
     }
     #fourth{
-      width:40%;
+      width:30%;
     }
   }
 

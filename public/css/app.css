@@ -34,7 +34,9 @@ html, body {
   width: 50%;
   height: 60px;
   margin-top: 37%;
-  margin-left: 26%; }
+  margin-left: 26%;
+  height: 100%;
+  overflow-y: hidden; }
 
 .main-btn {
   background-color: transparent;
@@ -141,7 +143,7 @@ img.bg {
     width: 80%;
     margin: 0 auto;
     padding: 20px 40px;
-    font-family: 'Dancing Script', cursive; }
+    font-family: Garamond; }
     .container2 .content .row {
       float: left; }
     .container2 .content .row.margined {
@@ -432,7 +434,19 @@ img.bg {
       vertical-align: middle;
       font-family: Garamond; }
       .reach .reachwrapper .info p {
-        margin-top: 60px; }
+        margin-top: 60px;
+        line-height: 30px; }
+        .reach .reachwrapper .info p a {
+          text-decoration: none;
+          text-align: center; }
+          .reach .reachwrapper .info p a:link {
+            color: #c59b4e; }
+          .reach .reachwrapper .info p a:visited {
+            color: #c59b4e; }
+          .reach .reachwrapper .info p a:active {
+            color: #c59b4e; }
+          .reach .reachwrapper .info p a:hover {
+            color: #948363; }
   .reach h1 {
     margin: 0;
     margin-bottom: 20px;
@@ -530,7 +544,7 @@ img.bg {
       vertical-align: top;
       text-align: center; }
       .finish .finishwrapper .col4 img {
-        max-width: 100%; }
+        max-width: 90%; }
       .finish .finishwrapper .col4 p {
         margin-top: 80px;
         font-family: Garamond;
@@ -542,9 +556,9 @@ img.bg {
     .finish .finishwrapper #second {
       width: 10%; }
     .finish .finishwrapper #third {
-      width: 40%; }
+      width: 50%; }
     .finish .finishwrapper #fourth {
-      width: 40%; }
+      width: 30%; }
 
 .form {
   width: 100%;

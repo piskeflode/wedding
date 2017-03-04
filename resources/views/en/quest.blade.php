@@ -37,7 +37,7 @@
         <div class="formwrapper">
             <form action="{{route('registerQuest')}}" method="post" class="white-pink " >
 
-                <h1>Please fill in the survey <span> Fields marked with * sign is required</span></h1>
+                <h1>Please fill out the survey <span> Fields marked with * sign is required</span></h1>
 
                 @if (count($errors) > 0)
                     <div class="alert alert-danger">
@@ -86,7 +86,7 @@
 
                 <div class="forminside">
                     <label>
-                        <span><p>When do you plan to arrive aprox ? *</p></span>
+                        <span><p>When do you plan to arrive approximately ? *</p></span>
                     </label>
                     <input type="text" name="arrive" id="datepicker">
 
@@ -95,7 +95,7 @@
 
                 <div class="forminside">
                     <label>
-                        <span><p>Do you have any allergi or other food preferences (for example, lactose tolerate, vegetarian or something)?</p></span>
+                        <span><p>Do you have any allergies or other food preferences (for example, lactose intolerance or vegatarian)?</p></span>
                     </label>
                     <textarea rows="4" cols="50" name="alergi" placeholder="Write here your preferences"></textarea>
 
@@ -104,8 +104,8 @@
 
                 <div class="forminside">
                     <label>
-                        <span><p>As we have 4 common buildings at villa, is it ok for you to share room with someone else ? It will be aprox 4 to 6 people in one big room with
-                common bathroom and toilet. If you say no then we will try to organize some transport in order to get you to the hotel or find another solution. * </p></span>
+                        <span><p>As we have 4 common buildings at villa, is it ok for you to share room with someone else? It will be approx 4 to 6 people in one big room with
+                common bathroom and toilet. If you say no, then we will try to organize transportation in order to get you to a hotel or find another solution. * </p></span>
                     </label>
 
                     <input type="radio" name="building" value="yes"> Yes

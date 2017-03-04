@@ -55,17 +55,17 @@
                 Address: Sedulinos al.69A, Visaginas , Lithuania</p>
                 <img src="../../images/zags.png" alt="">
                 <p>The ceremony will be around 30 min.</p>
-                <p>After that we will all travel to take beatiful pictures among Lithuanian nature</p>
+                <p>After that we will all travel to take beautiful pictures among Lithuanian nature.</p>
             </div>
 
             <div class="details2">
                 <p>The party will start from 16:00</p>
-                <p>Address: Babilninku kaimas, Moletu rajonas 33333</p>
+                <p>Address: Babilninku kaimas, Moletu rajonas, Lithuania</p>
                 <img src="../../images/usadba.png" alt="">
-                <p>On the first day (3 June), we will have a dinner and various activities <br>
-                    with the host, DJ as well as photosession. <br>
-                    We are going to stay there also for the 2nd day (4 June) , whee will be an informal party. <br>
-                    We will have BBQ and sauna. Please take with you extra clother.</p>
+                <p>On the 1st day (3 June), we will have a dinner and various activities <br>
+                    with the host, DJ as well as photo session. <br>
+                    We are going to stay there also for the 2nd day (4 June) , where will be an informal party. <br>
+                    We will have BBQ and sauna. Please take with you extra clothes.</p>
             </div>
         </div>
     </div>
@@ -76,13 +76,13 @@
 
             <div class="info">
                 <p>We will provide the transportation during the wedding days. <br>
-                    The taxi is quite cheap, it will cost 2 Eur for one ride- <br>
+                    The taxi (in Visaginas) is quite cheap, it costs 2 Eur for one ride. <br>
                     Taxi numbers: +370 386 33000 and +370 690 24444
                 </p>
                 <p>
                     Airports: Vilnius, Kaunas or Riga (Latvia) <br>
-                    Train: https://www.traukiniobilietas.lt/portal/en <br>
-                    Buses: https://www.autobusubilietai.lt/index.php?lang=0&
+                    Train: <a href="https://www.traukiniobilietas.lt/portal/en">https://www.traukiniobilietas.lt/portal/en</a> <br>
+                    Buses: <a href="https://www.autobusubilietai.lt/index.php?lang=0&"> https://www.autobusubilietai.lt/index.php?lang=0&</a>
                 </p>
             </div>
             <div id="map"></div>
@@ -99,7 +99,7 @@
             </ul>
             <p>As our city Visaginas is a small town, <br>
                 we don’t have variety of choices of accomandation. <br>
-                Any problems with bookins, let us know, we will help you.
+                Any problems with booking, let us know, we will help you.
             </p>
             <div class="accomondation">
                 <p><a href="http://hotel-idile.com/en"> IDILE</a></p>
@@ -114,7 +114,7 @@
                 <p>The price range from 21€ to 29€. <br>
                     Possible to book via e-mail. <br>
                     Breakfast not included. <br>
-                    4 km from the city, easy to access by a taxi</p>
+                    4 km from the city, easy to access by a taxi.</p>
             </div>
             <div class="accomondation">
 
@@ -128,9 +128,9 @@
             <div class="accomondation">
                 <p><a href="https://www.airbnb.com/rooms/15633520?guests=1 &adults=1&childr"> AIRBNB</a></p>
                 <img src="./../images/Airbnb.png" alt="">
-                <p>The AirBnb apartmant pricefrom 45€ b <br>
+                <p>The AirBnB apartment price from 45€ <br>
                     for 4 persons. <br>
-                    Possible to book online</p>
+                    Possible to book online.</p>
             </div>
         </div>
     </div>
