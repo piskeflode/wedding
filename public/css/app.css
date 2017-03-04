@@ -116,6 +116,8 @@ img.bg {
       .navigation ul li a {
         text-decoration: none;
         text-align: center; }
+        .navigation ul li a:link {
+          color: #c59b4e; }
         .navigation ul li a:visited {
           color: #c59b4e; }
         .navigation ul li a:active {

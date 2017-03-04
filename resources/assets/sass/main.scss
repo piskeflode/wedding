@@ -116,6 +116,9 @@ img.bg {
          text-decoration: none;
          text-align: center;
 
+         &:link {
+           color: $primary-color;
+         }
 
          &:visited {
            color: $primary-color;
