@@ -33,7 +33,7 @@
         <div class="formwrapper">
             <form action="{{route('registerQuest')}}" method="post" class="white-pink " >
 
-                <h1>Пожалуйста заполните опросник<span> Поля помеченные знаком *, должны быть заполнены</span></h1>
+                <h1>Пожалуйста, заполните опросник<span> Поля помеченные знаком *, должны быть заполнены</span></h1>
 
                 @if (count($errors) > 0)
                     <div class="alert alert-danger">
@@ -69,7 +69,7 @@
 
                 <div class="forminside">
                     <label>
-                        <span><p>Какой алкоголь вы бы предпочли бы пить на празднике?</p></span>
+                        <span><p>Какой алкоголь вы бы предпочли пить на празднике?</p></span>
                     </label>
                     <input type="checkbox" name="alc" value="Beer" > Пиво<br>
                     <input type="checkbox" name="alc" value="Vodka"> Водка<br>
@@ -99,7 +99,7 @@
                 <div class="forminside">
                     <label>
                         <span><p>Так как на усадьбе будет 4 здания с общими комнатами, согласны ли вы делить помещение с другими людьми?  Там будут комнаты примерно по 4-6 человек с общим туалетом и ванной.
-                                Если вы ответите нет мы попробуем организовать вам транспорт обратно в город или что то придумать ? *</p></span>
+                                Если вы ответите нет, мы попробуем организовать вам транспорт обратно в город или что-нибудь придумаем. *</p></span>
                     </label>
 
                     <input type="radio" name="building" value="yes"> Да
@@ -112,7 +112,7 @@
 
                 <div class="forminside">
                     <label>
-                        <span><p>Здесь вы можете написать любые пожелания или коментарии которые не были затронуты выше</p></span>
+                        <span><p>Здесь вы можете написать любые пожелания или коментарии, которые не были затронуты выше</p></span>
                     </label>
 
                     <textarea name="message" rows="4" cols="50" placeholder="Write here your comments"></textarea>
