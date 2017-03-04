@@ -523,11 +523,11 @@ img.bg {
   .finish .finishwrapper {
     width: 80%;
     margin: 0 auto;
-    vertical-align: top; }
+    vertical-align: top;
+    font-size: 0; }
     .finish .finishwrapper .col4 {
       display: inline-block;
       vertical-align: top;
-      margin-right: 16px;
       text-align: center; }
       .finish .finishwrapper .col4 img {
         max-width: 100%; }
@@ -544,7 +544,7 @@ img.bg {
     .finish .finishwrapper #third {
       width: 40%; }
     .finish .finishwrapper #fourth {
-      width: 20%; }
+      width: 40%; }
 
 .form {
   width: 100%;
