@@ -1,6 +1,9 @@
 @extends('layouts.master')
 
 @section('content')
+
+
+
    <div class="header">
 
       <div class="navigation">
@@ -66,7 +69,7 @@
    </div>
 
    @elseif($user['checked'] == 1 && $user['coming'] == 1)
-         <div class="container2-coming">
+         <div class="container2-coming" id="myModal">
             <div class="textbox">
             <span class="content">
             We are happy to see you at our weddings! <br>
@@ -80,7 +83,7 @@
          </div>
 
    @elseif($user['checked'] == 1 && $user['coming'] == 0)
-      <div class="container2-coming">
+      <div class="container2-coming" id="myModal">
          <div class="textbox">
             <span class="content">
             We are sorry to hear that you can not join us <br>

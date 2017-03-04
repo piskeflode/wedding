@@ -6,6 +6,8 @@ use Illuminate\Http\Request;
 use App\User;
 use Auth;
 use Illuminate\Support\Facades\DB;
+use Illuminate\Support\Facades\Redirect;
+use Illuminate\Support\Facades\URL;
 
 class UserController extends Controller
 {
@@ -50,10 +52,13 @@ class UserController extends Controller
             $user->coming = 1;
             $user->save();
 
-            return redirect()->back();
+          //  return redirect()->back();
+            return Redirect::to(URL::previous() . "#myModal");
         }else
             $user->save();
-            return redirect()->back();
+           // return redirect()->back();
+
+        return Redirect::to(URL::previous() . "#myModal");
 
 
     }
@@ -171,6 +176,7 @@ class UserController extends Controller
                 }
             }
         }
-        return redirect()->back();
+       return redirect()->back();
+
     }
 }
