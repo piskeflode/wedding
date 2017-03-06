@@ -15,3 +15,9 @@
     src: url(../fonts/GreatVibes-Regular.ttf);
     font-weight: normal;
 }
+
+@font-face {
+    font-family: Cuprum;
+    src: url(../fonts/Cuprum-Regular.ttf);
+    font-weight: normal;
+}

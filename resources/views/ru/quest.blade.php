@@ -48,7 +48,7 @@
                 @if(Auth::user()['couple'] == 1)
                 <div class="forminside">
                     <label>
-                    <span><p> Будет ли {{$couple['cname']}} вместе с вами на празднике? *</p></span>
+                    <span><p> Будет ли {{$couple['cnameru']}} вместе с вами на празднике? *</p></span>
                 </label>
                 <input type="radio" name="coming" value="coming">  Будет
                 <input type="radio" name="coming" value="notcoming"> Не будет

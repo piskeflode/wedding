@@ -242,6 +242,8 @@ img.bg {
   color: #c59b4e; }
   .textbox span.heading {
     font-size: 109px; }
+  .textbox span.heading-ru {
+    font-family: Cuprum; }
   .textbox span.content {
     font-size: 44px;
     line-height: 51px;

@@ -50,7 +50,7 @@
    <div class="container3">
 
       <div class="textbox">
-         <span class="heading">Ув. {{ $user['name']}} @if($user['couple'] == 1) и {{session('couple')->cname}} @endif </span><br><br>
+         <span class="heading heading-ru">Ув. {{ $user['nameru']}} @if($user['couple'] == 1) и {{session('couple')->cnameru}} @endif </span><br><br>
          <span class="content">Мы приглашаем вас на нашу  <br>
               свадьбу <br>
                3 Июня 2017</span>
@@ -66,7 +66,7 @@
    </div>
 
    @elseif($user['checked'] == 1 && $user['coming'] == 1)
-         <div class="container2-coming">
+         <div class="container2-coming" id="myModal">
             <div class="textbox">
             <span class="content">
             Мы очень рады что сможем увидеть вас на нашем празднике <br>
@@ -81,7 +81,7 @@
          </div>
 
    @elseif($user['checked'] == 1 && $user['coming'] == 0)
-      <div class="container2-coming">
+      <div class="container2-coming" id="myModal">
          <div class="textbox">
             <span class="content">
             Нам очень жаль что вы не сможете присутствовать на нашем празднике. <br>
