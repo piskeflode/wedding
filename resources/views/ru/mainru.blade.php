@@ -102,7 +102,7 @@
          <div  id="third"  class="col4"><img src="../../images/finishphoto.jpg" alt=""></div>
          <div id="fourth" class="col4"><p> “Лучший праздник это ваше участие” <br> <br>
 
-               Кликните на  <a href="{{route('detailsEnglish')}}">детали</a>  чтобы ознакомиться со всей информацией <br> <br>
+               Кликните на  <a href="{{route('detailsRussian')}}">детали</a>  чтобы ознакомиться со всей информацией <br> <br>
 
                Дайте нам знать о своём решении как можно быстрее  <br>
                <br><br>
