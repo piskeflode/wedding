@@ -24,7 +24,7 @@
             <div class="formwrapper">
                 <h1>Спасибо что заполнили опросник
                 </h1>
-                <a href="{{route('mainEnglish')}}" type="button">Вернуться на сайт</a>
+                <a href="{{route('mainRussian')}}" type="button">Вернуться на сайт</a>
             </div>
         </div>
 
