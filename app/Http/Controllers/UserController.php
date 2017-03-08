@@ -99,9 +99,10 @@ class UserController extends Controller
         $alergi = $value['alergi'];
         $share = $value['building'] === 'yes' ? 1 : 0;
         $message = $value['message'];
+        $car = $value['car'] === 'yes' ? 1 : 0;
 
         DB::table('quest')->insert([
-            ['quest_id' => $user->id, 'dateArrive' => $arrive, 'staying' => $staying, 'allergi' => $alergi, 'share' => $share, 'commens' => $message]
+            ['quest_id' => $user->id, 'dateArrive' => $arrive, 'staying' => $staying, 'allergi' => $alergi, 'share' => $share, 'commens' => $message, 'car' => $car]
         ]);
 
 

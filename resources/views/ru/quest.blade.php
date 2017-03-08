@@ -109,6 +109,16 @@
                     <hr>
                 </div>
 
+                <div class="forminside">
+                    <label>
+                        <span><p>Поедете ли вы на усадьбу на своей машине ?</p></span>
+                    </label>
+                    <input type="radio" name="car" value="yes"> На машине
+                    <input type="radio" name="car" value="no"> Нет, я буду без машины
+
+                    <hr>
+                </div>
+
 
                 <div class="forminside">
                     <label>
